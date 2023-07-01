@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.big {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.left {
+   
+   width: 51%;
+}
+
+.left img {
+    width: 700px;
+}
+
+.right {
+   
+    width: 49%;
+    padding: 40px;
+    background-color: rgb(18, 18, 53);
+}
+
+.right__top {
+    width: 100%;
+    height: 90px;
+    
+}
+
+.right__top h3 {
+    color: rgb(250, 92, 7);
+    
+}
+
+.right__top h1 {
+    color: white;
+    padding-top: 10px;
+}
+
+.right__middle {
+   display: flex;
+   gap: 10px;
+
+}
+
+.right__middle input {
+    height: 50px;
+    width: 50%;
+    text-indent: 10px;
+}
+
+#text {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(250, 92, 7);
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    margin-top: 6px;
+    border: none;
+}
+
+.cards {
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -15px;
+ 
+}
+
+.card {
+    width: 300px;
+    height: 330px;
+    border: 1px solid rgb(211, 209, 209);
+    padding: 20px;
+    box-shadow: 10px 10px 30px rgba(211, 211, 211, 0.72);
+}
+
+.card img {
+    width: 200px;
+    margin-left: 25px;
+    border-radius: 50%;
+}
+
+#cardd {
+    margin-left: 30px;
+    
+}
+
+.desires {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+    margin-left: 45px;
+}
+
+.desire {
+    width: 400px;
+    height: 220px;
+    border: 1px solid black;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.desire i {
+    color: rgb(250, 92, 7);
+    font-size: 40px;
+}
+
+.desire h5 {
+    color: gray;
+    padding-top: 10px;
+}
+
+
+.forphoto {
+    margin-top: 15px;
+    display: flex;
+    
+}
+
+.forphoto img {
+    border-radius: 50%;
+}
+
+.forphoto h2 {
+    margin-left: 20px;
+}
+
+.forphoto h4 {
+    margin-top: 40px;
+    margin-left: -135px;
+    color: gray;
+}
+
+#most i {
+    color: white;
+}
+
+#most h5 {
+    color: white;
+}
+
+#most h2 {
+    color: white;
+}
+
+#most h4 {
+    color: white;
+}
+
+#most {
+    background-color: rgb(250, 92, 7);
+    border: none;
+}
+
+.food {
+    width: 400px;
+    height: 100px;
+    margin-left: 490px;
+}
+
+.food {
+    display: flex;
+    gap: 20px;
+    height: 60px;
+}
+
+.breakfast {
+    display: flex;
+    border-bottom: 3px solid gray;
+
+}
+
+.breakfast:hover  {
+    border-bottom: 3px solid rgb(250, 92, 7);
+}
+
+.breakfast i {
+    font-size: 37px;
+    color: rgb(250, 92, 7);
+    padding-top: 10px;
+ 
+}
+
+.breakfast h5 {
+    padding-left: 5px;
+    padding-top: 9px;
+}
+
+.breakfast h3 {
+    padding-top: 26px;
+    margin-left: -50px;
+}
+
+.menu {
+    width: 100%;
+    height: 600px;
+    padding: 25px;
+    gap: 10px;
+    
+}
+
+.menu__left {
+    width: 50%;
+    min-height: 110px;
+    margin-top: 8px;
+}
+
+.menu__right {
+    width: 50%;
+   
+    height: 90px;
+
+}
+
+.food1 {
+    display: flex;
+    
+}
+
+.food1 h2 {
+    flex: 1;
+}
+
+.line {
+    width: 500px;
+    margin-left: 130px;
+    margin-top: -50px;
+}
+
+
+.menu__right {
+    min-height: 110px;
+    margin-left: 660px;
+    margin-top: -470px;
+}
+
+
+#menu1 { 
+    margin-top: -3px;
+    width: 645px;
+    margin-top: 5px;
+ 
+   
+}
+
+#menu1 img {
+    width: 110px;
+}
+
+.footer {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(17, 17, 84);
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
+.footer__top {
+    display: flex;
+    gap: 35px;
+}
+
+.small__footer {
+    width: 300px;
+    height: 370px;
+}
+
+.small__footer h3 {
+    color: white;
+    padding-top: 30px;
+
+}
+.small__footer h2 {
+    font-family: cursive;
+}
+
+.logos i {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 5px;
+ 
+
+}
+
+.footer__btn {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.footer__btn2 {
+  width: 90px;
+  border: 6px solid white;
+  background-color: rgb(250, 92, 7);
+  color: white;
+}
+
+.footer__bottom {
+    display: flex;
+  
+}
+
+.footer__bottom h2 {
+    flex: 1;
+}
+
+.collection {
+    list-style: none;
+    color: white;
+    display: flex;
+    padding-top: 30px;
+    padding-right: 30px;
+    gap: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
